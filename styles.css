@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+
+li {
+    margin: 0 auto;
+    background: rgba(116, 0, 134, 0.644);
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 5px 10px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(61, 70, 240);
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
